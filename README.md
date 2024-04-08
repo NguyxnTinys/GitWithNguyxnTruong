@@ -72,7 +72,7 @@
 #### Additionally, you can try some commands like open .git to see what's interesting
 ##### Command
     opend .git
-#### Remove repository <mark> rm -rf .git </mark>
+#### Remove repository <span style="color: grey;">rm -rf .git</span>
 ## GIT WORKFLOW
     git init : initialize the Git repository
     git add . : Add all files to the initialize
