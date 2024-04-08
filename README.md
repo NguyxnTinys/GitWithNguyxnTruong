@@ -32,11 +32,9 @@
 ### GIT SSH
 #### Create SSH key and add SSH key on Github
 #### Step1: Open Git Bash or Terminal, access the folder or director contains key
-##### Command
-    cd ~/.ssh
+    Command 'cd ~/.ssh'
 #### Step2: Check to see if there is an SSH key
-##### Command
-    ls
+    Command 'ls'
 #### Step3: If you don't have an SSH key, you need to create one of the following ways and coppy SSH key
 ##### Command create SSH key
     ssh-keygen -t ed25519 -b 2048
@@ -47,49 +45,45 @@
     cat ~/.ssh/id_ed25519.pub | clip
 #### Step5: Go to Github, Setting, select SSH and GPG keys, select New SSH key, paste the SSH key into the key and select add Authorize SSH key
 #### Step6: Check if the SSH key has been added successfully
-##### Command
-    ssh -T
+    Command 'ssh -T'
 
 ## SOME BASIC COMMANDS
-    cd <path or name Directory>: change directory
-    mkdir <name DIrectory>: make directory
-    ls: lists directories and files contained in the current directory
-    touch <file name>: create a file named <file name>
-    code <file name>: Open the file named <file name> with vscode
-    rm -rf <path>: delete the folder with path <path> and all subfolders inside
-    rm <file name>: delete file named <file name>
-    rmdir <directory name>: delete directory named <directory name>
-    cat <file name>: Displays the contents of the named <file name>
-    clear: clear screen
+    'cd <path or name Directory>': change directory
+    'mkdir <name DIrectory>': make directory
+    'ls': lists directories and files contained in the current directory
+    'touch <file name>': create a file named '<file name>'
+    'code <file name>': Open the file named '<file name>' with vscode
+    'rm -rf <path>': delete the folder with path '<path>' and all subfolders inside
+    'rm <file name>': delete file named '<file name>'
+    'rmdir <directory name>': delete directory named '<directory name>'
+    'cat <file name>': Displays the contents of the named '<file name>'
+    'clear': clear screen
 
 ### GIT INIT
 #### The git init command is used to initialize a new Git repository. Executing this command in a directory on your computer creates a new .git subdirectory. This subdirectory contains all the necessary metadata and configurations for the new repository. It’s the first step you take when you want to start version control for a project with Git.
-##### Command
-    git init
+    Command 'git init'
 #### You can use ls -a immediately after entering git init to check whether a .git file has been created or notWe can using ls -a after text git init 
-##### Command
-    ls -a
+    Command 'ls -a'
 #### Additionally, you can try some commands like open .git to see what's interesting
-##### Command
-    opend .git
+    Command 'opend .git'
 #### Remove repository
-    <mark>rm -rf .git</mark>
+    'rm -rf .git'
 ## GIT WORKFLOW
-    git init : initialize the Git repository
-    git add . : Add all files to the initialize
-    git add <file name> : Add file named <file name> to the initialize
-    git status : Check the status of your Git repository
-    git commit -m "comment" : Save changes to the Git repository
-    git log : Displays a list of commits
-    git log --oneline : Displays  a list pf commits on onel line
-    git show <commit code> : Displays detailed information of the commit code <commit code>
-    git diff : Shows differences between commits
-    git diff <commit1 code> <commit2 code> : Show the difference between two commits code <commit1 code> and <commit2 code>
-    git checkout <commit code> <file name> : Restore the contents of the file named <file name> from the commit with <commit code>
-    git checkout <commit code> : Restore all content from commit with code <commit code>
-    git reset --hard <commit code> : Delete all history and restore all content from commit with code <commit code>
-    git reset --hard : Delete all history and restore all content from the most recent commit
+    'git init': initialize the Git repository
+    'git add .': Add all files to the initialize
+    'git add <file name>': Add file named '<file name>' to the initialize
+    'git status': Check the status of your Git repository
+    'git commit -m "comment"': Save changes to the Git repository
+    'git log': Displays a list of commits
+    'git log --oneline': Displays  a list pf commits on onel line
+    'git show <commit code>': Displays detailed information of the commit code '<commit code>'
+    'git diff': Shows differences between commits
+    'git diff <commit1 code> <commit2 code>': Show the difference between two commits code '<commit1 code>' and '<commit2 code>'
+    'git checkout <commit code> <file name>': Restore the contents of the file named '<file name>' from the commit with '<commit code>'
+    'git checkout <commit code>': Restore all content from commit with code '<commit code>'
+    'git reset --hard <commit code>': Delete all history and restore all content from commit with code '<commit code>'
+    'git reset --hard': Delete all history and restore all content from the most recent commit
 ## SOME BASIC COMMANDS IN GITHUB
-    git branch :
-    git remote add origin "repository path"
-    git push -m origin "branch name"
+    'git branch':
+    'git remote add origin "repository path"'
+    'git push -m origin "branch name"'
