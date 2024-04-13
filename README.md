@@ -48,14 +48,23 @@ Command `ssh -T`
 
 ## SOME BASIC COMMANDS
 -`cd <path or name Directory>`: change directory
+
 -`mkdir <name DIrectory>`: make directory
+
 -`ls`: lists directories and files contained in the current directory
+
 -`touch <file name>`: create a file named `<file name>`
+
 -`code <file name>`: Open the file named `<file name>` with vscode
+
 -`rm -rf <path>`: delete the folder with path `<path>` and all subfolders inside
+
 -`rm <file name>`: delete file named `<file name>`
+
 -`rmdir <directory name>`: delete directory named `<directory name>`
+
 -`cat <file name>`: Displays the contents of the named `<file name>`
+
 -`clear`: clear screen
 
 ### GIT INIT
@@ -69,20 +78,37 @@ Command `opend .git`
 -`rm -rf .git`
 ## GIT WORKFLOW
 -`git init`: initialize the Git repository
+
 -`git add .`: Add all files to the initialize
+
 -`git add <file name>`: Add file named `<file name>` to the initialize
+
 -`git status`: Check the status of your Git repository
+
 -`git commit -m "comment"`: Save changes to the Git repository
+
 -`git log`: Displays a list of commits
+
 -`git log --oneline`: Displays  a list pf commits on onel line
+
 -`git show <commit code>`: Displays detailed information of the commit code `<commit code>`
+
 -`git diff`: Shows differences between commits
+
 -`git diff <commit1 code> <commit2 code>`: Show the difference between two commits code `<commit1 code>` and `<commit2 code>`
+
 -`git checkout <commit code> <file name>`: Restore the contents of the file named `<file name>` from the commit with `<commit code>`
+
 -`git checkout <commit code>`: Restore all content from commit with code `<commit code>`
+
 -`git reset --hard <commit code>`: Delete all history and restore all content from commit with code `<commit code>`
+
 -`git reset --hard`: Delete all history and restore all content from the most recent commit
+
 ## SOME BASIC COMMANDS IN GITHUB
 -`git branch`:
+
 -`git remote add origin "repository path"`
+
 -`git push -m origin "branch name"`
+
