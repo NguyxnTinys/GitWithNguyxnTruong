@@ -12,10 +12,12 @@
 ## CONFIGURING GIT
 ######  Configuring Git involves setting up vavious options that control how Git operates and look for each user.
 ### Setting up your identity
-git config --global user.name "Your Name"
-git config --global user.email youremail@example.com
+git config --global user.name `"Your Name"`
+
+git config --global user.email `"your_email@example.com"`
+
 ### You can display a list of devices
-git config --list
+`git config --list`
 ### Choosing a default editor
 ###### You can select the text editor that will be used when Git requires you to type in a message.
 ### Configuring preferences 
@@ -26,7 +28,7 @@ git config --list
 ###### Include: System level, Global level, Local level.
 ## GIT HELP
 ###### We using: Git config
-git config --list
+`git config --list`
 ## COMMAND IN GIT
 ### GIT SSH
 #### Create SSH key and add SSH key on Github
@@ -37,13 +39,19 @@ Command `ls`
 #### Step3: If you don't have an SSH key, you need to create one of the following ways and coppy SSH key
 ##### Command create SSH key
 ssh-keygen -t ed25519 -b 2048
+
 ssh-keygen -t ed25519 -b 2048 -C "email"
+
 ssh-keygen -t rsa -b 4096 -C "email"
+
 ##### Command copy SSH key
 clip < ~/.ssh/id_ed25519
+
 cat ~/.ssh/id_ed25519.pub | clip
+
 #### Step5: Go to Github, Setting, select SSH and GPG keys, select New SSH key, paste the SSH key into the key and select add Authorize SSH key
 #### Step6: Check if the SSH key has been added successfully
+
 Command `ssh -T`
 
 ## SOME BASIC COMMANDS
@@ -112,3 +120,6 @@ Command `opend .git`
 
 -`git push -m origin "branch name"`
 
+### GIT PULL
+
+-`git clone "URL clone repository"`
